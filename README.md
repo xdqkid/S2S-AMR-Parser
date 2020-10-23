@@ -1,6 +1,6 @@
 # S2S-AMR-Parser
 
-Part of Code for our paper "Improving AMR parsing with Sequence-to-Sequence Pre-training" in EMNLP-IJCNLP-2020.
+Part of Code for our paper "Improving AMR parsing with Sequence-to-Sequence Pre-training" in EMNLP-2020.
 
 Now we make our part of code and temporary best pre-trained model available to predict AMR graph for arbitrary sentences.
 
@@ -23,7 +23,7 @@ Now we make our part of code and temporary best pre-trained model available to p
 
 4. pre-trained model
    
-   We provide our temporary best model PTM-MT(WMT14B)-SemPar(WMT14M), which greately advances the state-of-the-art performance with 81.4 Smatch on AMR2.0.
+   We provide our temporary best model PTM-MT(WMT14B)-SemPar(WMT14M), which greately advances the state-of-the-art performance **with 81.4 Smatch on AMR2.0**.
    > Download Here </br>
    > 链接：https://pan.baidu.com/s/1bdIKXBtlSldC-IPMxkG04A </br>
    > 提取码：SUDA 
@@ -79,7 +79,7 @@ See [Pre- and post-processing scripts for neural sequence-to-sequence AMR parsin
 
 Here is a command demo for post-processing.
 ```bash
-python2 postprocess_AMRs.py -f sent.amr.bpe -s sent
+python2 postprocess_AMRs.py -f sent.amr -s sent
 ```
 
 # Acknowledgements
@@ -87,7 +87,7 @@ We adopted some modules or code from [AllenNLP](https://allennlp.org/), [OpenNMT
 
 
 # Cite
-If you like our paper, please cite
+If you like our paper or parser, please cite
 ```
 @misc{xu2020improving,
       title={Improving AMR Parsing with Sequence-to-Sequence Pre-training}, 
